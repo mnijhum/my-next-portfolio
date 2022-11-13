@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import hero1 from "../public/assets/hero1.svg";
+import Typewriter from "typewriter-effect";
 import { design, layout } from "../constants/design";
 const Main = () => {
   return (
@@ -12,7 +13,22 @@ const Main = () => {
         <h1 className={`${design.heading2} text2-gradient text-center`}>
           Mushfikunnabi Nijhum
         </h1>
-        <p className={design.paragraph}>Software Engineer and Developer.</p>
+        <div className={design.paragraph}>
+          <Typewriter
+            options={{
+              strings: [
+                "Software Engineer",
+                "Web Developer",
+                "Cloud Computing Enthusiast",
+              ],
+              autoStart: true,
+              loop: true,
+              pauseFor: 1000,
+              delay: 20,
+              deleteSpeed: 50,
+            }}
+          />
+        </div>
       </div>
       <div className={`flex-1 flex ${layout.sectionImg} flex-col`}>
         <Image

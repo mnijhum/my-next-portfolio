@@ -1,20 +1,20 @@
-// import {
-//   // people01,
-//   // people02,
-//   // people03,
-//   // facebook,
-//   // instagram,
-//   // linkedin,
-//   // twitter,
-//   // airbnb,
-//   // binance,
-//   // coinbase,
-//   // dropbox,
-//   // send,
-//   // shield,
-//   // star,
-// } from "../assets";
+import {
+  css,
+  html,
+  js,
+  nextjs,
+  tailwind,
+  reactjs,
+  materialui,
+  docker,
+} from "../public/assets/skills/index.js";
 
+import {
+  sajibVai,
+  simonVai,
+  sayeem,
+  shafin,
+} from "../public/assets/feedback/index.js";
 export const navLinks = [
   {
     id: "home",
@@ -22,11 +22,7 @@ export const navLinks = [
   },
   {
     id: "about",
-    title: "whoami",
-  },
-  {
-    id: "skill",
-    title: "Skills",
+    title: "About",
   },
   {
     id: "resume",
@@ -38,56 +34,133 @@ export const navLinks = [
   },
 ];
 
-// export const features = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+export const skills = [
+  {
+    id: "skill-1",
+    icon: js,
+    title: "JavaScript",
+  },
+  {
+    id: "skill-2",
+    icon: reactjs,
+    title: "ReactJS",
+  },
+  {
+    id: "skill-3",
+    icon: nextjs,
+    title: "NextJs",
+  },
+  {
+    id: "skill-4",
+    icon: materialui,
+    title: "Material UI",
+  },
+  {
+    id: "skill-5",
+    icon: tailwind,
+    title: "Tailwind",
+  },
+  {
+    id: "skill-6",
+    icon: html,
+    title: "HTML",
+  },
+  {
+    id: "skill-7",
+    icon: css,
+    title: "CSS",
+  },
+  {
+    id: "skill-8",
+    icon: docker,
+    title: "Docker",
+  },
+];
 
-// export const feedback = [
-//   {
-//     id: "feedback-1",
-//     content:
-//       "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-//     name: "Herman Jensen",
-//     title: "Founder & Leader",
-//     img: people01,
-//   },
-//   {
-//     id: "feedback-2",
-//     content:
-//       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-//     name: "Steve Mark",
-//     title: "Founder & Leader",
-//     img: people02,
-//   },
-//   {
-//     id: "feedback-3",
-//     content:
-//       "It is usually people in the money business, finance, and international trade that are really rich.",
-//     name: "Kenn Gallagher",
-//     title: "Founder & Leader",
-//     img: people03,
-//   },
-// ];
+export const education = [
+  {
+    id: "graduation",
+    name: "BSc in Computer Science & Engineering",
+    institute: "BRAC University",
+    grade: "CGPA 3.64/4.00",
+    time: "2017-2021",
+  },
+  {
+    id: "HSC",
+    name: "Higher Secondary Certificate",
+    institute: "Govt. Gurudoyal College, Kishoreganj",
+    grade: "GPA 5.00/5.00",
+    time: "2014-2016",
+  },
+];
+
+export const experiences = [
+  {
+    id: "job-2",
+    title: "Software Engineer",
+    institute: "InterCloud Limited",
+    contributions: [
+      { name: "Working as a full time Frontend Developer" },
+      {
+        name: "Designed and Developed Brilliant Ticketing System frontend for customer support.",
+      },
+      {
+        name: "Contributed building an Electronic Document Management System (EDMS).",
+      },
+      { name: "Contributed rebuilding Brilliant Admin Portal Frontend" },
+    ],
+    time: "May 2022 - Present",
+  },
+  {
+    id: "job-2",
+    title: "Jr Software Engineer",
+    institute: "Together Initiatives (p) Ltd.",
+    contributions: [
+      {
+        name: "Built Backend of a Point of Sale (Pos) Software using Spring Boot",
+      },
+      {
+        name: "Contributed optimizing ROBI's Robotic Process Automation (RPA) using python",
+      },
+    ],
+    time: "November 2021 - February 2022",
+  },
+];
+
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    name: "Jahidul Momin",
+    title: "Assistant Manager, Intercloud Limited",
+    img: sajibVai,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Simon Islam",
+    title: "Software Engineer, Intercloud Limited",
+    img: simonVai,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Sayeem Md Abdullah",
+    title: "Software Engineer, Intercloud Limited",
+    img: sayeem,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Shafin Hasnat",
+    title: "Software Engineer, Intercloud Limited",
+    img: shafin,
+  },
+];
 
 // export const stats = [
 //   {
