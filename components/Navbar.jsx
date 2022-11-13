@@ -2,18 +2,18 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { navLinks } from "../constants";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import mylogo from "../public/assets/mylogo.png";
+import mylogo from "../public/assets/mylogo.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className="w-full flex py-2 justify-between items-center navbar shadow-2xl ">
+    <nav className="w-full flex py-2 justify-between items-center navbar  ">
       <Image
         src={mylogo}
         alt="Logo"
         width="125"
         height="50"
-        className="cursor-pointer w-[100px] h-[100px]"
+        className="cursor-pointer w-[100px] h-[100px] items-center "
       />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

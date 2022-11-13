@@ -32,7 +32,16 @@
     background-clip: text;
     text-fill-color: transparent;
   }
+  .text2-gradient {
+    background: linear-gradient(to right, #DE624B 0%, #FAA760 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
   
+
+ 
   .bg-blue-gradient {
     background: linear-gradient(
       157.81deg,
