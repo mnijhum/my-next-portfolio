@@ -9,9 +9,9 @@ const Testimonials = () => {
       className={`${design.paddingY} ${design.flexCenter} flex-col relative`}
     >
       <h1 className={`${design.heading2} ${design.flexCenter} text2-gradient`}>
-        What others say about me!
+        Testimonials
       </h1>
-      <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1]">
+      <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1] cursor-pointer">
         {feedback.map((card) => (
           <FeedbackCard key={card.id} {...card} />
         ))}

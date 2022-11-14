@@ -12,14 +12,18 @@ const Skills = () => {
       </h1>
 
       <div
-        className={`${design.paddingY} grid sm:grid-cols-2 md:grid-cols-4 gap-8`}
+        className={`${design.paddingY} grid grid-cols-2 md:grid-cols-4 gap-8`}
       >
         {skills.map((skill) => (
           <>
             <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 feature-card">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                <div key={skill.id} className="m-auto">
-                  <Image src={skill.icon} alt={skill.id} />
+                <div key={skill.id} className="mr-4">
+                  <Image
+                    src={skill.icon}
+                    alt={skill.id}
+                    className="xs:h-[40px] xs:w-[40px]"
+                  />
                 </div>
                 <div className={design.flexCenter}>
                   <p className={design.paragraph}>{skill.title}</p>

@@ -14,7 +14,13 @@ import {
   simonVai,
   sayeem,
   shafin,
+  jubayer,
+  riduan,
 } from "../public/assets/feedback/index.js";
+
+import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+import { CiFacebook } from "react-icons/ci";
+import { FiGitlab, FiTwitter, FiMail } from "react-icons/fi";
 export const navLinks = [
   {
     id: "home",
@@ -38,7 +44,7 @@ export const skills = [
   {
     id: "skill-1",
     icon: js,
-    title: "JavaScript",
+    title: "Javascript",
   },
   {
     id: "skill-2",
@@ -112,7 +118,7 @@ export const experiences = [
     time: "May 2022 - Present",
   },
   {
-    id: "job-2",
+    id: "job-1",
     title: "Jr Software Engineer",
     institute: "Together Initiatives (p) Ltd.",
     contributions: [
@@ -131,34 +137,100 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Mushfikunnabi brings not only his professional theatrical skill but also his special ability to empathize with competing interests, egos, ages, backgrounds, and competencies to any organization he joins.",
     name: "Jahidul Momin",
-    title: "Assistant Manager, Intercloud Limited",
+    title: "Assistant Manager",
+    company: "Intercloud Limited",
     img: sajibVai,
+    profile: "https://www.linkedin.com/in/jahidul-momin-63979b9b",
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "A quick learner person always ready to learn new things. I wish him all the best.",
     name: "Simon Islam",
-    title: "Software Engineer, Intercloud Limited",
+    title: "Software Engineer",
+    company: "Intercloud Limited",
     img: simonVai,
+    profile: "https://simonislam.com",
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "I am really enjoying working with Nijhum at Intercloud Limited. Whenever he can, he is willing to assist others. I give him a thumbs-up!",
     name: "Sayeem Md Abdullah",
-    title: "Software Engineer, Intercloud Limited",
+    title: "Software Engineer",
+    company: "Intercloud Limited",
     img: sayeem,
+    profile: "https://sayeem.me",
   },
   {
-    id: "feedback-3",
+    id: "feedback-4",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Nijhum is dedicated to his work. Professionally, he is continuously seeking out opportunities to grow and try new approaches.",
     name: "Shafin Hasnat",
-    title: "Software Engineer, Intercloud Limited",
+    title: "Software Engineer",
+    company: "Intercloud Limited",
     img: shafin,
+    profile: "https://shafinhasnat.me",
+  },
+  {
+    id: "feedback-5",
+    content:
+      "Nijhum, one my close friend, is a kind hearted and cheerfull person. May he be succeed in every way.",
+    name: "Sadat Jubayer",
+    title: "Software Engineer",
+    company: "Worksober",
+    img: jubayer,
+    profile: "https://smjubayer.me",
+  },
+  {
+    id: "feedback-6",
+    content:
+      "I am confident that Nijhum would be a valuable member of any tech industry.",
+    name: "Jonayed Ahmed Riduan",
+    title: "Software Engineer I",
+    company: "Neural Seniconductor Limited",
+    img: riduan,
+    profile: "https://www.linkedin.com/in/jonayed-ahmed-riduan-847878193/",
+  },
+];
+
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: <BsGithub className="fill-white text-xl" />,
+    link: "https://github.com/mnijhum",
+  },
+  {
+    id: "social-media-2",
+    icon: <FiGitlab className="fill-white text-xl" />,
+    link: "https://gitlab.com/mnijhum",
+  },
+  {
+    id: "social-media-3",
+    icon: <BsLinkedin className="fill-white text-xl" />,
+    link: "https://www.linkedin.com/in/mnijhum/",
+  },
+  {
+    id: "social-media-4",
+    icon: <CiFacebook className="fill-white text-xl rounded-md bg-black" />,
+    link: "https://www.facebook.com/m.nijhum",
+  },
+  {
+    id: "social-media-5",
+    icon: <BsInstagram className="fill-white text-xl" />,
+    link: "https://www.instagram.com/m.nijhum",
+  },
+  {
+    id: "social-media-6",
+    icon: <FiMail className="fill-white text-xl" />,
+    link: "mailto:m.nijhum0@gmail.com",
+  },
+  {
+    id: "social-media-7",
+    icon: <FiTwitter className="fill-white text-xl" />,
+    link: "https://twitter.com/m_nijhum",
   },
 ];
 
@@ -243,29 +315,6 @@ export const feedback = [
 //         link: "https://www.hoobank.com/become-a-partner/",
 //       },
 //     ],
-//   },
-// ];
-
-// export const socialMedia = [
-//   {
-//     id: "social-media-1",
-//     icon: instagram,
-//     link: "https://www.instagram.com/",
-//   },
-//   {
-//     id: "social-media-2",
-//     icon: facebook,
-//     link: "https://www.facebook.com/",
-//   },
-//   {
-//     id: "social-media-3",
-//     icon: twitter,
-//     link: "https://www.twitter.com/",
-//   },
-//   {
-//     id: "social-media-4",
-//     icon: linkedin,
-//     link: "https://www.linkedin.com/",
 //   },
 // ];
 

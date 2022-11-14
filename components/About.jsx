@@ -16,7 +16,7 @@ const About = () => {
         <h1
           className={`${design.heading2} text2-gradient md:${design.flexStart} ${design.flexCenter}`}
         >
-          About me
+          About Me
         </h1>
 
         <p className={`${design.paragraph} ${design.paddingY} text-start`}>
