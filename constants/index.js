@@ -190,7 +190,7 @@ export const feedback = [
       "I am confident that Nijhum would be a valuable member of any tech industry.",
     name: "Jonayed Ahmed Riduan",
     title: "Software Engineer I",
-    company: "Neural Seniconductor Limited",
+    company: "Neural Semiconductor Limited",
     img: riduan,
     profile: "https://www.linkedin.com/in/jonayed-ahmed-riduan-847878193/",
   },

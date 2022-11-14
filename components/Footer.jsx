@@ -13,6 +13,7 @@ const Footer = () => {
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
             <a
+              key={index}
               href={social.link}
               alt={social.name}
               className={`w-[21px] h-[21px] object-contain cursor-pointer hover:scale-125 ease-in duration-300 ${

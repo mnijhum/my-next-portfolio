@@ -1,5 +1,5 @@
-import React from "react";
 import Image from "next/image";
+import React from "react";
 import { design, layout } from "../constants/design";
 import about2 from "../public/assets/about2.svg";
 const About = () => {
