@@ -3,9 +3,9 @@ import Head from "next/head";
 const MetaTag = () => {
   const title = "Mushfikunnabi Nijhum | Software Engineer";
   const description =
-    "A dreamer who dreams about being a successful person in every aspect of my life. Currently, I have been working as a full time software engineer at Intercloud Limited which is located in Dhaka, Bangladesh. Besides, during my leisure time, you can find me playing FIFA, watching TV-Series, Movies or hanging out with my friends. Whenever I get a chance to do something, I usually do not stop until I finish it.";
+    "I, Mushfikunnabi Nijhum (মুশফিকুন্নবী নিঝুম) is a dreamer who dreams about being a successful person in every aspect of my life. Currently, I have been working as a full time Software Engineer at Intercloud Limited which is located in Dhaka, Bangladesh. My hometown is in Kishoreganj.";
   const keywords =
-    "Software, Developer, Engineer, Mushfikunnabi, Nijhum, Softaware Engineer, Software Developer, Frontend Developer, React, JavaScript, React Developer, Mushfikunnabi Nijhum, Kishoreganj, kishorgonj, kishoregonj, kgbhs, gurudoyal";
+    "Software, Developer, Engineer, Mushfikunnabi, Nijhum, Softaware Engineer, Software Developer, Frontend Developer, React, JavaScript, React Developer, Mushfikunnabi Nijhum, Kishoreganj, kishorgonj, kishoregonj, kgbhs, gurudoyal, নিঝুম, মুশফিকুন্নবী, নিজুম, Nijum, nzhm, nizum, programmer";
 
   const site_url = "https://mnijhum.com";
   const image_url = site_url + "/thumbnail.jpg";

@@ -19,12 +19,12 @@ const Skills = () => {
             key={skill.id}
             className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 feature-card"
           >
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="mr-4">
+            <div className="grid xs:grid-cols-2 gap-4 justify-center items-center xxs:grid-rows-2">
+              <div className="xs:mr-4 xxs:hidden xs:block">
                 <Image
                   src={skill.icon}
                   alt={skill.id}
-                  className="xs:h-[40px] xs:w-[40px]"
+                  className="xxs:h-[15px] xxs:w-[15px] xs:h-[35px] xs:w-[35px] md:h-[40px] md:w-[40px] h-[0px] w-[0px]"
                 />
               </div>
               <div className={design.flexCenter}>

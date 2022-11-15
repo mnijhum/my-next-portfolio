@@ -147,7 +147,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "A quick learner person always ready to learn new things. I wish him all the best.",
+      "A quick learning person always ready to learn new things. I wish him all the best.",
     name: "Simon Islam",
     title: "Software Engineer",
     company: "Intercloud Limited",

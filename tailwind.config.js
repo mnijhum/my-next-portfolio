@@ -12,7 +12,7 @@ module.exports = {
       colors: {
         primary: "#191919",
         secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimWhite: "rgba(255, 255, 255, 0.9)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
@@ -20,7 +20,8 @@ module.exports = {
       },
     },
     screens: {
-      xs: "480px",
+      xxs: "200px",
+      xs: "350px",
       ss: "620px",
       sm: "768px",
       md: "1060px",

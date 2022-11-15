@@ -16,16 +16,16 @@ const Footer = () => {
               key={index}
               href={social.link}
               alt={social.name}
-              className={`w-[21px] h-[21px] object-contain cursor-pointer hover:scale-125 ease-in duration-300 ${
-                index !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+              className={`w-[21px] h-[21px]  object-contain cursor-pointer hover:scale-125 ease-in duration-300 ${
+                index !== socialMedia.length - 1 ? "xxs:mr-1 xs:mr-6" : "mr-0"
               }`}
             >
               {social.icon}
             </a>
           ))}
         </div>
-        <p className="font-poppins font-normal pt-5 text-center text-[18px] leading-[27px] text-white">
-          © 2022 Mushfikunnabi Nijhum | <br className="xs:hidden block" /> All
+        <p className="font-poppins font-normal pt-5 text-center text-[18px] leading-[27px] text-dimWhite">
+          © 2022 Mushfikunnabi Nijhum ☺ <br className="xs:hidden block" /> All
           Rights Reserved.
         </p>
       </div>
