@@ -7,13 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate":"next build && next export"
+    "generate": "next build && next export"
   },
   "dependencies": {
     "next": "13.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
+    "sitemap": "^7.1.1",
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {

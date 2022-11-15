@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import hero1 from "../public/assets/hero1.svg";
+import hero1 from "../public/assets/hero1.png";
 import Typewriter from "typewriter-effect";
 import { design, layout } from "../constants/design";
 const Main = () => {

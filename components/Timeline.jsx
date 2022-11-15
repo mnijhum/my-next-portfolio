@@ -17,10 +17,10 @@ const Timeline = () => {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   {edu.time}
                 </time>
-                <h3 className="font-poppins font-extrabold text-white">
+                <p className="font-poppins font-extrabold  text-white">
                   {edu.name}
-                </h3>
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                </p>
+                <p className="mb-4 text-base font-normal text-dimWhite">
                   {edu.institute} - {edu.grade}
                 </p>
               </li>
@@ -38,13 +38,13 @@ const Timeline = () => {
                 <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                   {exp.time}
                 </time>
-                <h3 className="text-lg font-semibold text-white dark:text-white">
+                <p className="text-lg font-semibold text-white dark:text-white">
                   {exp.title}
-                </h3>
+                </p>
                 <p className="font-poppins font-extrabold text-white">
                   {exp.institute}
                 </p>
-                <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                <p className="mb-4 text-base font-normal text-dimWhite dark:text-gray-400">
                   Contributions:
                 </p>
                 <ol className="pl-6 border-l border-gray-200 dark:border-gray-700">

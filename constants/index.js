@@ -199,37 +199,42 @@ export const feedback = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: <BsGithub className="fill-white text-xl" />,
+    icon: <BsGithub aria-label="Github" className="fill-white text-xl" />,
     link: "https://github.com/mnijhum",
   },
   {
     id: "social-media-2",
-    icon: <FiGitlab className="fill-white text-xl" />,
+    icon: <FiGitlab aria-label="Gitlab" className="fill-white text-xl" />,
     link: "https://gitlab.com/mnijhum",
   },
   {
     id: "social-media-3",
-    icon: <BsLinkedin className="fill-white text-xl" />,
+    icon: <BsLinkedin aria-label="LinkedIn" className="fill-white text-xl" />,
     link: "https://www.linkedin.com/in/mnijhum/",
   },
   {
     id: "social-media-4",
-    icon: <CiFacebook className="fill-white text-xl rounded-md bg-black" />,
+    icon: (
+      <CiFacebook
+        aria-label="Facebook"
+        className="fill-white text-xl rounded-md bg-black"
+      />
+    ),
     link: "https://www.facebook.com/m.nijhum",
   },
   {
     id: "social-media-5",
-    icon: <BsInstagram className="fill-white text-xl" />,
+    icon: <BsInstagram aria-label="Instagram" className="fill-white text-xl" />,
     link: "https://www.instagram.com/m.nijhum",
   },
   {
     id: "social-media-6",
-    icon: <FiMail className="fill-white text-xl" />,
+    icon: <FiMail aria-label="Gmail" className="fill-white text-xl" />,
     link: "mailto:m.nijhum0@gmail.com",
   },
   {
     id: "social-media-7",
-    icon: <FiTwitter className="fill-white text-xl" />,
+    icon: <FiTwitter aria-label="Twitter" className="fill-white text-xl" />,
     link: "https://twitter.com/m_nijhum",
   },
 ];

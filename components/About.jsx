@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { design, layout } from "../constants/design";
-import about2 from "../public/assets/about2.svg";
+import about2 from "../public/assets/about2.png";
 const About = () => {
   return (
     <section id="about" className={`${layout.sectionReverse}`}>
