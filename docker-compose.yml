@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  nextjs:
+    image: mnijhum/next-portfolio:0.1
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    volumes:
+      - /etc/letsencrypt/live/mnijhum.com/fullchain.pem:/usr/share/nginx/fullchain.pem
+      - /etc/letsencrypt/live/mnijhum.com/privkey.pem:/usr/share/nginx/privkey.pem
