@@ -34,7 +34,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          file: ./Dockerfile
+          file: E:\Personal\my-next-portfolio\Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/next-portfolio:latest
 
