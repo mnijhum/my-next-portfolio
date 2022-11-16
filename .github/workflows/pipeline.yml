@@ -43,4 +43,16 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/next-portfolio:0.1
 
+  deploy:
+    needs: docker-build-push
+    name: SSH and run cmd
+    runs-on: ubuntu-latest
+    steps:
+      - name: checking out Code
+        uses: actions/checkout@v2
+      - name: Run deploy command
+        run: ./deploy.sh
+        shell: bash
+
+
 
