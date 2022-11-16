@@ -36,8 +36,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: .
-          file: ./Dockerfile
+          context: my-next-portfolio
+          file: my-next-portfolio/Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/next-portfolio:0.1
 
