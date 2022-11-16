@@ -17,6 +17,7 @@ jobs:
         run: npm run generate
 
   docker-build-push:
+    needs: build-project
     name: Build docker
     runs-on: ubuntu-latest
     steps:
