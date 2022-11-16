@@ -8,12 +8,12 @@ jobs:
   build-project:
 
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18.x]
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - name: Install NPM dependencies
         run: npm install
       - name: Build and Export
@@ -36,8 +36,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: E:\Personal\my-next-portfolio\
-          file: E:\Personal\my-next-portfolio\Dockerfile
+          context: .
+          file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/next-portfolio:0.1
 
