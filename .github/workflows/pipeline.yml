@@ -1,0 +1,19 @@
+name: PortfolioPipeline
+
+on: 
+  push:
+    branches: [master]
+
+jobs:
+  build-project:
+    name: Build NextJs Website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checout@v2
+      - name: Install NPM dependencies
+        run: npm Install
+      - name: Build and Export
+        run: npm run generate
+
+
