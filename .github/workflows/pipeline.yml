@@ -50,9 +50,16 @@ jobs:
     steps:
       - name: checking out Code
         uses: actions/checkout@v2
-      - name: Run deploy command
-        run: git update-index --chmod=+x ./deploy.sh
-        shell: bash
+      - name: Execute SSH commmands on remote server
+        uses: JimCronqvist/action-ssh@master
+        with:
+          hosts: ${{secrets.HOST_IP}}
+          privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
+          command: |
+              cd nijhum-portfolio
+              echo "inside folder"
+              docker-compose pull
+              docker-compose up -d
 
 
 
