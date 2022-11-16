@@ -51,7 +51,7 @@ jobs:
       - name: checking out Code
         uses: actions/checkout@v2
       - name: Run deploy command
-        run: ./deploy.sh
+        run: git update-index --chmod=+x ./deploy.sh
         shell: bash
 
 
