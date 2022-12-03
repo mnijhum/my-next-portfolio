@@ -25,18 +25,27 @@ export const navLinks = [
   {
     id: "home",
     title: "Home",
+    link: "",
   },
   {
     id: "about",
     title: "About",
+    link: "",
   },
   {
     id: "resume",
     title: "Resume",
+    link: "",
   },
   {
     id: "contact",
     title: "Contact",
+    link: "",
+  },
+  {
+    id: "blog",
+    title: "Blog",
+    link: "https://medium.com/@mnijhum",
   },
 ];
 

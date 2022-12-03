@@ -24,9 +24,9 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <p className="font-poppins font-normal pt-5 text-center text-[18px] leading-[27px] text-dimWhite">
-          © 2022 Mushfikunnabi Nijhum ☺ <br className="xs:hidden block" /> All
-          Rights Reserved.
+        <p className="font-poppins font-normal pt-5 pb-2 text-center text-[18px] leading-[27px] text-dimWhite">
+          © {new Date().getFullYear()} Mushfikunnabi Nijhum ☺{" "}
+          <br className="xs:hidden block" /> All Rights Reserved.
         </p>
       </div>
     </div>

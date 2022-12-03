@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Main from "../components/Main";
 import MetaTag from "../components/MetaTag";
 import Navbar from "../components/Navbar";
+import { ScrollToTop } from "../components/ScrollToTop";
 import Skills from "../components/Skills";
 import Testimonials from "../components/Testimonials";
 import Timeline from "../components/Timeline";
@@ -33,6 +34,7 @@ const Home = () => {
           <Footer />
         </div>
       </div>
+      <ScrollToTop />
     </div>
   );
 };
