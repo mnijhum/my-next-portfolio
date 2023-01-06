@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ["s3.brilliant.com.bd"],
     formats: ["image/webp"],
+    unoptimized: true,
   },
 };
 
