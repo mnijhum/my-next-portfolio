@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { navLinks } from "../constants";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import mylogo from "../public/assets/mylogo.svg";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,7 +9,7 @@ const Navbar = () => {
   return (
     <nav id="home" className={"w-full flex py-2 justify-between items-center"}>
       <Image
-        src={mylogo}
+        src="https://s3.brilliant.com.bd/nijhum/portfolio-images/mylogo.svg"
         alt="Logo"
         width="125"
         height="50"

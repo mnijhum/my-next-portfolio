@@ -1,7 +1,7 @@
-import React from "react";
-import { design } from "../constants/design";
-import { skills } from "../constants";
 import Image from "next/image";
+import React from "react";
+import { skills } from "../constants";
+import { design } from "../constants/design";
 const Skills = () => {
   return (
     <div id="skill" className={design.paddingY}>
@@ -24,6 +24,9 @@ const Skills = () => {
                 <Image
                   src={skill.icon}
                   alt={skill.id}
+                  width="0"
+                  height="0"
+                  sizes="100vw"
                   className="xxs:h-[15px] xxs:w-[15px] xs:h-[35px] xs:w-[35px] md:h-[40px] md:w-[40px] h-[0px] w-[0px] shrink-0"
                 />
               </div>

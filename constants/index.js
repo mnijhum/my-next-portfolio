@@ -1,26 +1,37 @@
-import {
-  css,
-  html,
-  js,
-  nextjs,
-  tailwind,
-  reactjs,
-  materialui,
-  docker,
-} from "../public/assets/skills/index.js";
-
-import {
-  sajibVai,
-  simonVai,
-  sayeem,
-  shafin,
-  jubayer,
-  riduan,
-} from "../public/assets/feedback/index.js";
-
 import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import { CiFacebook } from "react-icons/ci";
 import { FiGitlab, FiTwitter, FiMail } from "react-icons/fi";
+
+const css =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/css.png";
+const html =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/html.png";
+const js =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/javascript.png";
+const nextjs =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/nextlogo.svg";
+const tailwind =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/tailwind.png";
+const reactjs =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/react.png";
+const materialui =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/materialUi.svg";
+const docker =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/skills/docker.png";
+
+const sajibVai =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/sajib_vai.jpg";
+const simonVai =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/simon_vai.jpg";
+const sayeem =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/sayeem.jpg";
+const shafin =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/shafin.jpg";
+const jubayer =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/jubayer.jpg";
+const riduan =
+  "https://s3.brilliant.com.bd/nijhum/portfolio-images/feedback/riduan.jpg";
+
 export const navLinks = [
   {
     id: "home",
@@ -121,6 +132,9 @@ export const experiences = [
       },
       {
         name: "Contributed building an Electronic Document Management System (EDMS).",
+      },
+      {
+        name: "Built the frontend of Identity and Access Management (IAM) in Brilliant Cloud Portal.",
       },
       { name: "Contributed rebuilding Brilliant Admin Portal Frontend" },
     ],

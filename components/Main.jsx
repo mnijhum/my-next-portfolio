@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import hero1 from "../public/assets/hero1.png";
 import Typewriter from "typewriter-effect";
 import { design, layout } from "../constants/design";
 const Main = () => {
@@ -19,7 +18,7 @@ const Main = () => {
               strings: [
                 "Software Engineer",
                 "Web Developer",
-                "Cloud Computing Enthusiast",
+                "DevOps Enthusiast",
               ],
               autoStart: true,
               loop: true,
@@ -32,8 +31,11 @@ const Main = () => {
       </div>
       <div className={`flex-1 flex ${layout.sectionImg} flex-col`}>
         <Image
-          src={hero1}
+          src="https://s3.brilliant.com.bd/nijhum/portfolio-images/hero1.png"
           alt="person1"
+          width="0"
+          height="0"
+          sizes="100vw"
           className="w-[100%] h-[100%] relative z-[5] "
         />
       </div>

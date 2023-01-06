@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import { design, layout } from "../constants/design";
-import about2 from "../public/assets/about2.png";
 const About = () => {
   return (
     <section id="about" className={`${layout.sectionReverse}`}>
       <div className={`flex-1 flex ${layout.sectionImgReverse} flex-col`}>
         <Image
-          src={about2}
+          src="https://s3.brilliant.com.bd/nijhum/portfolio-images/about2.png"
+          width="0"
+          height="0"
+          sizes="100vw"
           alt="person2"
           className="w-[100%] h-[100%] relative z-[5] "
         />

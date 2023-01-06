@@ -2,7 +2,8 @@
 const nextConfig = {
   reactStrictMode: false,
   images: {
-    unoptimized: true,
+    domains: ["s3.brilliant.com.bd"],
+    formats: ["image/webp"],
   },
 };
 

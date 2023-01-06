@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import quotes from "../public/assets/quotes.png";
 const FeedbackCard = ({ content, name, title, img, company, profile }) => {
   return (
     <div
@@ -9,8 +8,11 @@ const FeedbackCard = ({ content, name, title, img, company, profile }) => {
     >
       <div className="flex flex-row justify-between">
         <Image
-          src={quotes}
+          src="https://s3.brilliant.com.bd/nijhum/portfolio-images/quotes.png"
           alt="double_quotes"
+          width="0"
+          height="0"
+          sizes="100vw"
           className="w-[42px] h-[27px] object-contain fill-orange-500"
         />
         <p className="font-poppins font-normal text-[14px] leading-[32px] text-white my-10">
@@ -22,6 +24,9 @@ const FeedbackCard = ({ content, name, title, img, company, profile }) => {
         <Image
           src={img}
           alt={name}
+          width="0"
+          height="0"
+          sizes="100vw"
           className="w-[48px] h-[48px] rounded-full"
         />
         <div className="flex flex-col ml-4">

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import mylogo from "../public/assets/mylogo.svg";
 import { socialMedia } from "../constants";
 const Footer = () => {
   return (
@@ -8,7 +7,14 @@ const Footer = () => {
       id="contact"
       className="w-full flex justify-between items-center md:flex-col flex-col pt-6 border-t-[1px] border-t-[#3F3E45]"
     >
-      <Image src={mylogo} alt="logo" className="h-[250px] w-[250px]" />
+      <Image
+        src="https://s3.brilliant.com.bd/nijhum/portfolio-images/mylogo.svg"
+        alt="logo"
+        width="0"
+        height="0"
+        size="100vh"
+        className="h-[250px] w-[250px]"
+      />
       <div className="flex flex-col items-center">
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
